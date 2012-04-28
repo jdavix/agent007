@@ -10,7 +10,8 @@ gem 'activeadmin', '0.4.3'
 gem 'meta_search',    '>= 1.1.0.pre'
 gem 'twitter', '2.2.2'
 gem 'pg'
-
+gem 'sass-rails',   '~> 3.1.5'
+gem 'coffee-rails', '~> 3.1.1'
 # Gems used only for assets and not required
 # in production environments by default.
 group :development do
@@ -22,8 +23,6 @@ group :development, :test do
   gem 'factory_girl_rails', '1.3.0'
 end
 group :assets do
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'validate_url', '0.2.0'
