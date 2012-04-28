@@ -1,10 +1,7 @@
 ActiveAdmin.register Employee do
   filter :name
   filter :email
-  #begin
-  #  filter :team_id , :as => :select, :collection => Team.order('name ASC')
-  #rescue
-  #end
+
   index do
     column 'Profile Picture' do |employee|
       image_tag employee.twitter_profile_picture
